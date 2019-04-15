@@ -16,10 +16,11 @@ master - main branch that contains all release (tested) code, not commit on this
     merge [project] stable branches to this (except dev branch)
     from this only init core and dev branches
     not merge this to any branch
+    don't work (make new stuff) on this branch
 
 ##### PROJECT FAMILY
 
-[project] - each project (include specific, see core and dev above) have own branch, folder and github project:
+[project] - each project (include specific, see core and dev above) have own branch, folder (in "core" folder) and github project:
 
     init from core
     merge core to this on core updates
@@ -68,6 +69,7 @@ core - specific project, from what init all another projects
     init from master
     on update merge this to [project] branches
     merge this to master
+    have not release (version) branches
 
 ### Additional Info
 
