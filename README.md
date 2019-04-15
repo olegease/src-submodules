@@ -11,10 +11,11 @@ _TODO: Add gitflow diagram and add more description and sanitize wording_
 
 ##### MASTER
 
-master - main branch that contains all release (tested) code, contain some usefull info (such as README and another text files) and global stuff (gitignore etc), 
+master - main branch that contains all release (tested) code, not commit on this branch after creating core branch.
 
-    merge [project] stable branches to this
+    merge [project] stable branches to this (except dev branch)
     from this only init core and dev branches
+    not merge this to any branch
 
 ##### PROJECT FAMILY
 
