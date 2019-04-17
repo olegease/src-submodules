@@ -1,7 +1,6 @@
 ## self added
 *.vcxproj
 *.vcxproj.*
-*.sln
 
 ## copy from C++.gitignore github/gitignore repository
 # Prerequisites
